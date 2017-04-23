@@ -27,13 +27,13 @@ public class ProviderController {
         return "hi :"+name;
     }
 	
-	@RequestMapping("/getName")
+	@RequestMapping("/api/getName")
     public String getName(String name) {
 		logger.info("==== provider2 getName ===={}",name);
         return "The name is : "+name;
     }
 	
-	@RequestMapping("/getCurrentTime")
+	@RequestMapping("/api/getCurrentTime")
     public String getCurrentTime() {
 		Date date = new Date();
 		String strdate = DateFormat.getInstance().format(date);
