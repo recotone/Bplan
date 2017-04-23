@@ -22,10 +22,11 @@
 	<modules>
 		<module>bplan-server</module>
 		<module>bplan-service-consumer</module>
-                <module>bplan-service-consumer-feign</module>
+		<module>bplan-service-consumer-feign</module>
 		<module>bplan-service-provider</module>
 		<module>bplan-service-provider2</module>
-                <module>bplan-service-zuul</module>
+		<module>bplan-service-zuul</module>
+		<module> bplan-config-server</module>
 	</modules>
 
 	<dependencyManagement>
