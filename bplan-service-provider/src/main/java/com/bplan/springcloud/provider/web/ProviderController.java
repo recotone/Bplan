@@ -25,7 +25,7 @@ public class ProviderController {
 	@RequestMapping("/info")
 	public String info(String name) {
 		logger.info("==== provider info ===={}", name);
-		return "hi " + name;
+		return "HELLO: " + name;
 	}
 
 	
