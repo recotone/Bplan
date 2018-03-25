@@ -11,4 +11,9 @@ server:
 spring:
   application:
     name: service-provider
+
+#关闭安全配置 否则用 /refresh 要返回 401
+management:
+   security:
+     enabled: false
       
