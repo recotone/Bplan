@@ -27,6 +27,8 @@
 		<module>bplan-service-provider2</module>
 		<module>bplan-service-zuul</module>
 		<module>bplan-config-server</module>
+		<module>bplan-zipkin</module>
+		<module>test</module>
 	</modules>
 
 	<dependencyManagement>

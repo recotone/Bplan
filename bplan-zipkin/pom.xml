@@ -13,7 +13,7 @@
 	<artifactId>bplan-zipkin</artifactId>
 	<packaging>jar</packaging>
 
-	<name>zipkin</name>
+	<name>bplan-zipkin</name>
 	<description>Demo project for Spring Boot</description>
 
 	<dependencies>
